@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlowerLover</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Spline+Sans:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-link" href="./index.html"
+            ><img src="./icons/logo.png" width="126px" alt="logo"
+          /></a>
+
+          <a class="search-link" href=""
+            ><svg class="icon-search" width="30" height="30">
+              <use href="./icons/icons.svg#icon-search"></use></svg
+          ></a>
+          <a class="menu-link" href=""
+            ><svg class="icon-menu" width="42" height="42">
+              <use href="./icons/icons.svg#icon-menu"></use></svg
+          ></a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="flowers-image"></div>
+      <div class="container">
+        <section class="hero">
+          <div class="hero-order">
+            <h1 class="hero-title">
+              <span class="hero-title-accent-1">Неймовірні</span>
+              Букети
+              <span class="hero-title-accent">зі свіжих квітів</span>
+            </h1>
+            <button class="hero-button">ЗАМОВИТИ КВІТИ</button>
+          </div>
+          <ul class="benefits-list">
+            <li class="benefits-item">
+              <p class="benefits-text">Щоденне оновлення</p>
+            </li>
+            <li class="benefits-item">
+              <p class="benefits-text">Безкоштовна доставка</p>
+            </li>
+            <li class="benefits-item">
+              <p class="benefits-text">Більше 1000 сортів квітів</p>
+            </li>
+          </ul>
+        </section>
+        <section class="catalog">
+          <h2 class="catalog-title">Каталог</h2>
+          <ul class="catalog-list">
+            <li class="catalog-list-item"></li>
+            <li class="catalog-list-item"></li>
+            <li class="catalog-list-item"></li>
+            <li class="catalog-list-item"></li>
+            <li class="catalog-list-item"></li>
+          </ul>
+          <ul class="our-flowers-list">
+            <li class="our-flowers-item"></li>
+            <li class="our-flowers-item"></li>
+          </ul>
+        </section>
+        <section class="our-benefits">
+          <ul class="our-benefits-list">
+            <li class="our-benefits-item">
+              <img class="our-benefits-image" src="" alt="" />
+              <h3 class="our-benefits-title">Контроль свіжості квітів</h3>
+              <p class="our-benefits-text">
+                Ми співпрацюємо з кращими постачальниками квітів і готові
+                запропонувати Вам
+                <span class="our-benefits-text-accent"
+                  >широкий асортимент квітів</span
+                >, починаючи від місцевих сортів і закінчуючи рідкісними
+                імпортованими варіантами. Ваша близька людина отримає найкращий
+                подарунок, адже ми ретельно підбираємо кожну квітку для вашого
+                букету.
+              </p>
+            </li>
+            <li class="our-benefits-item">
+              <img class="our-benefits-image" src="" alt="" />
+              <h3 class="our-benefits-title">Оформлення букетів</h3>
+              <p class="our-benefits-text">
+                Ми готові зібрати
+                <span class="our-benefits-text-accent"
+                  >унікальний букет по індивідуальному замовленню</span
+                >
+                . Наші флористи втілять в життя будь яку Вашу ідею!
+              </p>
+            </li>
+            <li class="our-benefits-item">
+              <img class="our-benefits-image" src="" alt="" />
+              <h3 class="our-benefits-title">Швидка доставка</h3>
+              <p class="our-benefits-text">
+                Ми робимо доставки по Україні протягом
+                <span class="our-benefits-text-accent">3-х годин</span> з
+                моменту оплати замовлення.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="contact-us">
+          <h2 class="contact-us-main-title">
+            Не можете визначитись з вибором букету?
+          </h2>
+          <h3 class="contact-us-title">
+            Відправте заявку і Вам зателефонують протягом однієї хвилини
+          </h3>
+          <form class="contact-us-form">
+            <label class="contact-us-label">
+              <input
+                class="contact-us-input"
+                type="name"
+                name="form-name"
+                placeholder="Ім'я"
+              />
+            </label>
+            <label class="contact-us-label">
+              <input
+                class="contact-us-input"
+                type="tel"
+                name="form-tel"
+                placeholder="Телефон"
+              />
+            </label>
+          </form>
+          <button type="submit" class="contact-us-button">
+            Залишити заявку
+          </button>
+          <h3 class="contact-us-benefits-title">Наш менеджер по телефону:</h3>
+          <ul class="contact-us-benefits-list">
+            <li class="contact-us-benefits-item">
+              <p class="contact-us-benefits-text">
+                <span class="our-benefits-text-accent">Відповість</span> на будь
+                які запитання
+              </p>
+            </li>
+            <li class="contact-us-benefits-item">
+              <p class="contact-us-benefits-text">
+                <span class="our-benefits-text-accent">Підбере рішення</span>
+                відповідно до ваших запитів та бажань
+              </p>
+            </li>
+            <li class="contact-us-benefits-item">
+              <p class="contact-us-benefits-text">
+                <span class="our-benefits-text-accent"
+                  >Підготує унікальну пропозицію</span
+                >
+                та детально розповість Вам про наші букети
+              </p>
+            </li>
+            <li class="contact-us-benefits-item">
+              <p class="contact-us-benefits-text">
+                <span class="our-benefits-text-accent">Оформить</span> для Вас
+                подарунок-сюрприз
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="our-clients">
+          <h2 class="our-clients-title"></h2>
+          <img src="" alt="" />
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="./index.html" class="footer-main-page-link">Головна</a>
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item"><a href="">Каталог</a></li>
+            <li class="footer-nav-item"><a href="">Відгуки</a></li>
+            <li class="footer-nav-item"><a href="">Як замовити</a></li>
+            <li class="footer-nav-item"><a href="">Контакти</a></li>
+          </ul>
+        </nav>
+        <address class="footer-contacts">
+          <ul>
+            <li>
+              <a class="footer-contacts-link" href="tel:+380977775577"
+                >+38097 777 55 77</a
+              >
+              <p class="footer-contacts-text"></p>
+            </li>
+            <li>
+              <a class="footer-contacts-link" href="mailto:info@floverlover.ua"
+                >info@floverlover.ua</a
+              >
+              <p class="footer-contacts-text"></p>
+            </li>
+            <li>
+              <a
+                class="footer-contacts-link"
+                href="https://www.google.com/maps/place/Mariupolska+St,+14,+Brovary,+Kyivs'ka+oblast/@50.4964124,30.7863663,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4dbde0ad99c21:0x2ed42df5205d10ab!8m2!3d50.496409!4d30.7889412?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
+                >Київ вул. Маріупольська, 14</a
+              >
+              <p class="footer-contacts-text"></p>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
